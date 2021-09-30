@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandonHotel", "LandonHotel\LandonHotel.csproj", "{5CB2DA5D-DA94-4B80-8D3A-7F753DE746BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LandonHotel", "LandonHotel\LandonHotel.csproj", "{5CB2DA5D-DA94-4B80-8D3A-7F753DE746BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandonHotelTests", "LandonHotelTests\LandonHotelTests.csproj", "{FEFFBEC9-82A8-43C8-AAC0-DFBE06F5D47D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{5CB2DA5D-DA94-4B80-8D3A-7F753DE746BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CB2DA5D-DA94-4B80-8D3A-7F753DE746BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CB2DA5D-DA94-4B80-8D3A-7F753DE746BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFFBEC9-82A8-43C8-AAC0-DFBE06F5D47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFFBEC9-82A8-43C8-AAC0-DFBE06F5D47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFFBEC9-82A8-43C8-AAC0-DFBE06F5D47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFFBEC9-82A8-43C8-AAC0-DFBE06F5D47D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED822ACE-6C7D-45E4-BA32-1EB1F2E9F424}
 	EndGlobalSection
 EndGlobal
